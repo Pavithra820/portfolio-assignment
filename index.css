@@ -1,0 +1,665 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head {
+    display : flex;
+}
+
+.prof {
+    flex : 1;
+
+    width : 1px;
+    
+}
+
+section {
+    padding: 140px;
+    height : 100vh;
+}
+
+.name {
+    flex : 3;
+}
+.sub{
+    margin-left: 1076px;
+    margin-top: 0%;
+}
+nav{
+    background:black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+nav ul li a{
+color: white;
+font-size: 20px;
+font-family: Arial;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+a.active,a:hover{
+   background:beige;
+   transition: .3s;
+   color: black;
+}
+
+#about{
+    height: 100vh;
+    margin-top: 100px;
+}
+.aboutme{
+    display: flex;
+    font-family:Arial;
+    margin-top: 40px;
+    height: 200px;
+    font-size: x-large;
+    padding: 10px;
+}
+.divetwo{
+    border: 1px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+    color: aliceblue;
+    border-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20%;
+    transition: background .3s;
+}
+.divetwo:hover{
+    background:gray;
+    transition: .3s;
+    
+ transform: scale(1.1);
+}
+
+#eduction{
+    margin-top: 200px;
+    padding-top: 100px;
+}
+.education{
+    display: flex;
+    text-align: center;
+    line-height: normal;
+    background-color:black;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    border: 1px solid;
+    border-radius: 20%;
+    padding: 10px;
+    font-size: x-large;
+    height: 300px;
+}
+.education:hover{
+    background: gray;
+    transition: .3s;
+}
+.left{
+    flex: 1;
+    margin-top: 30px;
+    line-height: 50px;
+    font-size: 20px; 
+    animation: zoomInAnimation 2s ease-in-out infinite alternate;
+}
+@keyframes zoomInAnimation {
+    from {
+      transform: scale(1); 
+    }
+    to {
+      transform: scale(1.1); 
+    }
+  }
+.right{
+    flex: 1;
+    margin-top: 30px;
+    line-height: 50px;
+    font-size: 20px; 
+    animation: zoomInAnimation 2s ease-in-out infinite alternate;
+}
+@keyframes zoomInAnimation {
+    from {
+      transform: scale(1); 
+    }
+    to {
+      transform: scale(1.1); 
+    }
+  }
+.leftone{
+    line-height: 40px;
+}
+.lefttwo{
+    line-height: 40px;
+}
+.leftthree{
+    line-height: 40px;
+}
+.rightone{
+    line-height: 40px;
+}
+.righttwo{
+    line-height: 40px;
+}
+.righthree{
+    line-height: 40px;
+}
+.project{
+    text-align: center;
+    font-size: larger;
+    font-family: Arial;
+    margin-top: 200px;
+    word-wrap: normal;
+    color: aliceblue;
+}
+.projectone{
+    background-color: black;
+    border: 1px solid;
+    padding: 40px;
+    border-radius: 40%;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: x-large;
+    transition: background .3s;
+
+}
+.projectone:hover{
+    background:gray;
+   transition: .3s;
+   
+   transform: scale(1.1);
+}
+.projecttwo{
+    background-color: black;
+    border: 1px solid;
+    padding: 40px;
+    border-radius: 40%;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: x-large;
+    transition: background .3s;
+
+}
+.projecttwo:hover{
+    background:gray;
+   transition: .3s;
+   transform: scale(1.1);
+
+}
+.projectthree{
+    background-color: black;
+    border: 1px solid;
+    padding: 40px;
+    border-radius: 40%;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: x-large;
+    transition: background .3s;
+}
+.projectthree:hover{
+    background:gray;
+   transition: .3s;
+   transform: scale(1.1);
+
+}
+.certi{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+.certione{
+flex: 1;
+text-align: center;
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 10px;
+margin-bottom: 80px;
+border: 1px solid;
+background-color: black;
+color: aliceblue;
+border-radius: 20%;
+padding: 20px;
+transition: background .3s;
+}
+.certione:hover{
+    background: gray;
+    transform: scale(1.1);
+}
+.certitwo{
+flex: 1;
+text-align: center;
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 10px;
+margin-bottom: 80px;
+border: 1px solid;
+background-color: black;
+color: aliceblue;
+border-radius: 20%;
+padding: 20px;
+transition: background .3s;
+
+}
+.certitwo:hover{
+    background: gray;
+    transform: scale(1.1);
+}
+.certithree{
+flex: 1;
+text-align: center;
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 10px;
+margin-bottom: 80px;
+border: 1px solid;
+background-color: black;
+color: aliceblue;
+border-radius: 20%;
+padding: 10px;
+transition: background .3s;
+}
+.certithree:hover{
+    background: gray;
+    transform: scale(1.1);
+}
+.certifour{
+flex: 1;
+text-align: center;
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 10px;
+margin-bottom: 80px;
+border: 1px solid;
+background-color: black;
+color: aliceblue;
+border-radius: 20%;
+padding: 20px;
+transition: background .3s;
+}
+.certifour:hover{
+    background: gray;
+    transform: scale(1.1);
+}
+.certii{
+    display: flex;
+    margin-top: 30px;
+    margin-top:100px;
+}
+.certiione{
+flex: 1;
+text-align: center;
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 10px;
+margin-bottom: 80px;
+border: 1px solid;
+background-color: black;
+color: aliceblue;
+border-radius: 20%;
+padding: 10px;
+}
+.certiione:hover{
+    background: gray;
+}
+.certiitwo{
+flex: 1;
+text-align: center;
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 10px;
+margin-bottom: 80px;
+border: 1px solid;
+background-color: black;
+color: aliceblue;
+border-radius: 20%;
+height: 80px;
+padding: 10px;
+
+}
+.certiitwo:hover{
+    background: gray;
+}
+.certiithree{
+flex: 1;
+text-align: center;
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 10px;
+margin-bottom: 80px;
+border: 1px solid;
+background-color: black;
+color: aliceblue;
+border-radius: 20%;
+padding: 10px;
+}
+.certiithree:hover{
+    background: gray;
+}
+.certiifour{
+flex: 1;
+text-align: center;
+margin-top: 60px;
+margin-left: 50px;
+margin-right: 10px;
+margin-bottom: 80px;
+border: 1px solid;
+background-color: black;
+color: aliceblue;
+border-radius: 20%;
+padding: 20px;
+}
+.certiifour:hover{
+    background: gray;
+}
+.skillset{
+    display:flex;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 400px;
+
+}
+
+
+.partone{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.phone{
+flex : 1 ;
+text-align: center;
+margin-bottom: 60px;
+margin-left: 10px;
+border: 1% solid;
+color: white;
+}
+
+.cell-one-content {
+    width : 500px;
+    background-color: black;
+    border-radius: 40%;
+    transition: opacity 0.3s;
+    height: 100px;
+}
+.cell-one-content:hover{
+    background:gray;
+    transition: .3s;
+    opacity: 0.7;
+}
+
+.email{
+    flex: 1;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    border: 1px solid;
+    color: white;
+    border-radius: 10%;
+}
+.cell-two-content{
+    width:500px;
+    background-color:black ;
+    border-radius: 30%;
+    height: 100px;
+}
+.cell-two-content:hover{
+        background: gray;
+        transition: .3s;
+    }
+.address{
+    flex:1;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    border: 1px solid;
+    color: white;
+    border-radius: 10%;
+}
+.cell-three-content{
+    width:500px;
+    background-color: black;
+    border-radius: 40%;
+}
+.cell-three-content:hover{
+    background: gray;
+    transition: .3s;
+}
+.parttwo{
+    display: flex;
+    margin-left: 50px;
+}
+.link{
+    flex: 1;
+    text-align: center;
+   margin-bottom: 60px;
+   margin-left: 10px;
+   border: 1px solid;
+   color: white;
+   border-radius: 10%;
+}
+.cell-content{
+    width:500px;
+    background-color: black;
+    border-radius: 40%;
+    height: 120px;
+}
+.cell-content:hover{
+    background: gray;
+    transition: .3s;
+}
+.github{
+    flex: 1;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 1px;
+    border: 1px solid;
+    color: white;
+    border-radius: 10%;
+}
+.cell-contentt{
+    width:500px;
+    background-color: black;
+    border-radius: 40%;
+}
+.cell-contentt:hover{
+    background: gray;
+    transition: .3s;
+}
+.insta{
+    flex:1;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 1px;
+    border: 1px solid;
+    color: white;
+    border-radius: 10%;
+}
+.cell-contente{
+    width:500px;
+    background-color: black;
+    border-radius: 35%;
+    height: 120px;
+}
+.cell-contente:hover{
+    background: gray;
+    transition: .3;
+}
+
+.head img{
+    margin-left: 200px;
+    height: 500px;
+    width: 120px;
+}
+.heading{
+    text-align: center; 
+    color: black;
+    margin-top: 15px; 
+    font-size: xx-large; 
+    margin-bottom: 40px;
+}
+  #udemy{
+    width: 150px;
+    height: 100px;
+  }
+  #microsoft{
+    width: 150px;
+    height: 100px;
+  }
+  #intel{
+    width: 150px;
+    height: 100px;
+  }
+  #aws{
+    width: 150px;
+    height: 100px;
+  }
+  
+  .logo {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden; 
+    border-right: 2px solid #333; 
+    animation: slideIn 1s linear infinite; 
+  }
+
+
+  @keyframes slideIn {
+    from {
+      width: 0; 
+    }
+    to {
+      width: auto; 
+    }
+  }
+
+#hr{
+    width: 0; 
+      height: 2px;
+      background-color: #333;
+      transition: width 0.5s ease;
+
+}
+#hr:hover{
+    width: 100%;
+}
+.sidein{
+    opacity: 0; 
+      transform: translateX(-100%); 
+      animation: slideInAnimation 3s linear infinite; 
+    }
+    @keyframes slideInAnimation {
+        0% {
+          opacity: 0;
+          transform: translateX(-100%);
+        }
+        25% {
+          opacity: 1;
+          transform: translateX(0); 
+        }
+        50% {
+          opacity: 1;
+          transform: translateX(0); 
+        }
+        75% {
+          opacity: 1;
+          transform: translateX(0); 
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0); 
+        }
+      }
+      .prof{
+        opacity: 0; 
+          transform: translateX(-100%); 
+          animation: slideInAnimation 3s linear infinite;
+        }
+        @keyframes slideInAnimation {
+            0% {
+              opacity: 0;
+              transform: translateX(-100%);
+            }
+            25% {
+              opacity: 1;
+              transform: translateX(0); 
+            }
+            50% {
+              opacity: 1;
+              transform: translateX(0); 
+            }
+            75% {
+              opacity: 1;
+              transform: translateX(0); 
+            }
+            100% {
+              opacity: 1;
+              transform: translateX(0); /* Slide in from the left */
+            }
+          }
+
+          .name{
+            opacity: 0; /* Set initial opacity to 0 for the slide-in effect */
+              transform: translateX(-100%); /* Start off the screen to the left */
+              animation: slideInAnimation 3s linear infinite; /* Apply the slide-in animation */
+            }
+            @keyframes slideInAnimation {
+                0% {
+                  opacity: 0;
+                  transform: translateX(100%);
+                }
+                25% {
+                  opacity: 1;
+                  transform: translateX(0); /* Slide in from the left */
+                }
+                50% {
+                  opacity: 1;
+                  transform: translateX(0); /* Pause at this point for 2 seconds */
+                }
+                75% {
+                  opacity: 1;
+                  transform: translateX(0); /* Continue sliding in from the left */
+                }
+                100% {
+                  opacity: 1;
+                  transform: translateX(0); /* Slide in from the left */
+                }
+              }
+    
+    
